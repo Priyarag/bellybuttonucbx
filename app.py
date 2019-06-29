@@ -23,7 +23,7 @@ from sqlalchemy import Column, Integer, String, DECIMAL, DateTime, cast, Date
 # from sqlalchemy import create_engine
 
 # from flask import Flask, jsonify, render_template
-# from flask_sqlalchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 
