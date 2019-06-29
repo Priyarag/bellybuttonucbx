@@ -1,8 +1,10 @@
+import os
+
 from flask import Flask, jsonify, render_template
 import json
 import numpy as np
 import pandas as pd
-import decimal
+#import decimal
 import datetime
 
 import sqlalchemy
